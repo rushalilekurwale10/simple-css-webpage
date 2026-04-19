@@ -12,3 +12,34 @@
 .header h2{
     font-size:38px;
 }
+/* Section */
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.section img{
+    width:100%;
+    max-width:500px;
+    margin-top:20px;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    margin:10px;
+    width:300px;
+    border-radius:10px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
