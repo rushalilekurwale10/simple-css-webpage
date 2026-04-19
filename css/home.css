@@ -1,0 +1,17 @@
+/* Hero Section */
+    .hero {
+      background: url('./../images/campus.jpg') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
