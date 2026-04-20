@@ -1,0 +1,57 @@
+/* Header */
+.header{
+    background:url('https://images.unsplash.com/photo-1523240795612-9a054b0db644') no-repeat center/cover;
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.header h2{
+    font-size:40px;
+}
+
+/* Section */
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* Contact Info */
+.contact-info{
+    margin-bottom:30px;
+}
+
+/* Form */
+.form-box{
+    max-width:600px;
+    margin:20px auto;
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+}
+
+.form-box input,
+.form-box textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.form-box button{
+    width:100%;
+    padding:10px;
+    background:#004080;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.form-box button:hover{
+    background:#00264d;
+}
