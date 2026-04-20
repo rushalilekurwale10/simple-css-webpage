@@ -1,101 +1,102 @@
 /* Header Section */
-.header{
-    background:url('./../images/classs.jpg') no-repeat center/cover;
-    height:60vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    text-align:center;
+.header {
+    background: url('./../images/classs.jpg') no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
 
-.header h2{
-    font-size:40px;
+.header h2 {
+    font-size: 40px;
 }
 
 /* Section */
-.section{
-    padding:40px 20px;
-    text-align:center;
+.section {
+    padding: 40px 20px;
+    text-align: center;
 }
 
 /* Cards */
-.container{
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.card{
-    background:#f4f4f4;
-    padding:20px;
-    margin:10px;
-    width:300px;
-    border-radius:10px;
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 /* Form */
-.form-box{
-    max-width:600px;
-    margin:20px auto;
-    background:#f4f4f4;
-    padding:20px;
-    border-radius:10px;
+.form-box {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .form-box input,
 .form-box select,
-.form-box textarea{
-    width:100%;
-    padding:10px;
-    margin:10px 0;
-    border-radius:5px;
-    border:1px solid #ccc;
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.form-box button{
-    width:100%;
-    padding:10px;
-    background:#004080;
-    color:white;
-    border:none;
-    border-radius:5px;
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
-.form-box button:hover{
-    background:#00264d;
+.form-box button:hover {
+    background: #00264d;
 }
+
 /* Responsive */
-@media(max-width:768px){
-    nav{
-        flex-direction:column;
+@media(max-width:768px) {
+    nav {
+        flex-direction: column;
     }
 
-    nav ul{
-        flex-direction:column;
-        margin-top:10px;
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
     }
 
-    nav ul li{
-        margin:10px 0;
+    nav ul li {
+        margin: 10px 0;
     }
 
-    .header h2{
-        font-size:28px;
+    .header h2 {
+        font-size: 28px;
     }
 
-    .container{
-        flex-direction:column;
-        align-items:center;
+    .container {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
-@media(max-width:480px){
-    .header{
-        height:50vh;
+@media(max-width:480px) {
+    .header {
+        height: 50vh;
     }
 
-    .header h2{
-        font-size:22px;
+    .header h2 {
+        font-size: 22px;
     }
 }
