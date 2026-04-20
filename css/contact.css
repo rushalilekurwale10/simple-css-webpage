@@ -55,3 +55,32 @@
 .form-box button:hover{
     background:#00264d;
 }
+/* Responsive */
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+        margin-top:10px;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    .header h2{
+        font-size:28px;
+    }
+}
+
+@media(max-width:480px){
+    .header{
+        height:50vh;
+    }
+
+    .header h2{
+        font-size:22px;
+    }
+}
