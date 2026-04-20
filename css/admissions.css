@@ -1,0 +1,67 @@
+* Header Section */
+.header{
+    background:url('https://images.unsplash.com/photo-1580582932707-520aed937b7b') no-repeat center/cover;
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.header h2{
+    font-size:40px;
+}
+
+/* Section */
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    margin:10px;
+    width:300px;
+    border-radius:10px;
+}
+
+/* Form */
+.form-box{
+    max-width:600px;
+    margin:20px auto;
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.form-box button{
+    width:100%;
+    padding:10px;
+    background:#004080;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.form-box button:hover{
+    background:#00264d;
+}
